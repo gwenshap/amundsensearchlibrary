@@ -5,6 +5,7 @@
 [![License](http://img.shields.io/:license-Apache%202-blue.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 [![Slack Status](https://img.shields.io/badge/slack-join_chat-white.svg?logo=slack&style=social)](https://bit.ly/2FVq37z)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fgwenshap%2Famundsensearchlibrary.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fgwenshap%2Famundsensearchlibrary?ref=badge_shield)
 
 Amundsen Search service serves a Restful API and is responsible for searching metadata. The service leverages [Elasticsearch](https://www.elastic.co/products/elasticsearch "Elasticsearch") for most of it's search capabilites.
 
@@ -105,3 +106,7 @@ For specific configuration related to statsd, you can configure it through [envi
 ### [Models package](https://github.com/lyft/amundsensearchlibrary/tree/master/search_service/models "Models package")
 Models package contains many modules where each module has many Python classes in it. These Python classes are being used as a schema and a data holder. All data exchange within Amundsen Search service use classes in Models to ensure validity of itself and improve readability and maintainability.
 
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fgwenshap%2Famundsensearchlibrary.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fgwenshap%2Famundsensearchlibrary?ref=badge_large)
